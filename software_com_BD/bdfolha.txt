@@ -1,0 +1,14 @@
+-- Cria o banco de dados
+CREATE DATABASE IF NOT EXISTS bdfolha;
+USE bdfolha;
+
+-- Cria a tabela de funcionários
+CREATE TABLE IF NOT EXISTS funcionario (
+  matricula_funcionario INT PRIMARY KEY,
+  nome_funcionario VARCHAR(100),
+  cargo_funcionario VARCHAR(100),
+  setor_funcionario VARCHAR(100),
+  campus_funcionario VARCHAR(100),
+  horario_trabalho VARCHAR(100),
+  carga_horaria VARCHAR(100)
+);
