@@ -1,0 +1,3 @@
+BAIXAR MYSQL 
+
+https://dev.mysql.com/downloads/installer/
